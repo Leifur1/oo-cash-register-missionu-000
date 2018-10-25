@@ -24,10 +24,6 @@ class CashRegister
     end
   end
 
-  def add_items(item)
-    @@items <<item
-    @@items
-  end
 
   def void_last_transaction
     @@total.pop
