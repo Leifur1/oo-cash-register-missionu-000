@@ -32,4 +32,8 @@ class CashRegister
   def void_last_transaction
     @@total.pop
   end
+
+  def items
+    @@items
+  end
 end
