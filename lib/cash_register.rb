@@ -34,6 +34,6 @@ class CashRegister
   end
 
   def items
-    @@items
+    return @@items
   end
 end
